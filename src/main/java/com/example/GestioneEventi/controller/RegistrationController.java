@@ -16,7 +16,7 @@ public class RegistrationController {
     @Autowired
     RegistrationService registrationService;
 
-    @PostMapping("/newUser")
+    @PostMapping
     public String register(@RequestBody RegistrationRequest request){
         return registrationService.save(request);
     }

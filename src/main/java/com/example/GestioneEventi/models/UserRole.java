@@ -1,6 +1,7 @@
 package com.example.GestioneEventi.models;
 
 public enum UserRole {
-    USER,
-    ADMIN
+    USER_ROLE,
+    MANAGER_ROLE,
+    ADMIN_ROLE
 }
